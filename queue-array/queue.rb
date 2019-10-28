@@ -21,7 +21,7 @@ class Queue
     end
 
     def empty?
-        !@head.nil?
+        @head.nil?
     end
 
     def peek
