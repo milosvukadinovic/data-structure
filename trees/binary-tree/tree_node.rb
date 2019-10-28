@@ -1,6 +1,5 @@
 class TreeNode
-    attr_accessor :left, :right
-    attr_reader :value
+    attr_accessor :value, :left, :right
     
     def initialize value,left=nil,right=nil
         @value = value
