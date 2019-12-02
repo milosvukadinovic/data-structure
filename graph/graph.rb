@@ -1,5 +1,5 @@
 require_relative('./vertex.rb')
-require_relative('./../linear ds/queue.rb')
+require_relative('./../queue-array/queue.rb')
 
 # The Adjacent list Graph
 class Graph
